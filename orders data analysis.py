@@ -28,4 +28,4 @@ print("Connected successfully")
 # Load to SQL
 df.to_sql('orders_data', con=engine, index=False, if_exists='replace', schema='dbo')
 
-print("Data uploaded successfully")
+
